@@ -5,7 +5,7 @@ def main
 end
 
 def get_upper_and_lower(line)
-  return line.split('-')[0].to_i, line.split('-')[1].to_i
+  [line.split('-')[0].to_i, line.split('-')[1].to_i]
 end
 
 def part1(input)
